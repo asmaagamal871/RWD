@@ -57,15 +57,35 @@
             justify-content: space-between;
             height: 350px;
         }
+        @media(max-width:650px){
+            .header{
+                flex-direction: column;
+                height: 150px;
+            }
+            .container{
+                flex-direction: column;
+                height: 1000px;   
+            align-items: center;         }
+            .box1{
+                width: 95%;
+            }
+            .box2{
+                width: 95%;
+            }
+            .container1{
+                height: 400px;
+            }
+
+        }
     </style>
     </head>
     <body>
         <div class="container1">
             <div class="header">
-                <a href="#">home</a>
-                <a href="#">home</a>
-                <a href="#">home</a>
-                <a href="#">home</a>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Service</a>
+                <a href="#">contact</a>
             </div>
             <div class="container">
                 <div class="box1">
