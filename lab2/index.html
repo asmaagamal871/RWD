@@ -82,7 +82,7 @@
                     style="width: 75%; " alt="...">
                 <div class="card-img-overlay d-flex justify-content-around ps-5
                     flex-column">
-                    <h2 class="card-title w-25 d-none d-lg-block">Do you love
+                    <h2 class="card-title d-none d-lg-block">Do you love
                         flowers as much as we do?</h2>
                     <p class="card-text text-white-50 d-none d-lg-block" style="width: 33%;">
                         <small> Lorem ipsum dolor sit amet, consectetur
@@ -97,7 +97,9 @@
             <div class="row">
                 <div class=" d-flex flex-column col-12 col-md-9 border-end pe-4">
                     <h3>This is the title of a blog post</h3>
-                    <p>Posted on June 29th 2009 by Mads Kjaer - 3 comments</p>
+                    <p class="text-black-50" >
+                        Posted on June 29th 2009 by <a class="text-black-50"> Mads Kjaer</a> - <a class="text-black-50" for>3 comments</a>
+                    </p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Proin euismod tellus eu orci imperdiet nec rutrum lacus
                         blandit. Cras enim nibh, sodales ultricies elementum
@@ -154,7 +156,7 @@
                             vulputate vitae pretium ac, rutrum at turpis. Aenean id
                             magna neque. Sed rhoncus aliquet viverra.</p>
                         <hr>
-                        <h4>Comments</h4>
+                        <h4 id="comment">Comments</h4>
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                             <div class="accordion-item">
                               <h2 class="accordion-header" id="flush-headingOne">
@@ -233,8 +235,8 @@
                         
                     </div>               
                        
-               <div  class="col-lg-3 col-md-3 d-none d-md-block  ps-5 cont-of-sides ">
-                <div class="p-3 col-sm-5 sides w-100 rounded-3">
+               <div  class=" mw-100 min-vw-75 col-lg-3 col-md-12 col  ps-5 " >
+                <div class="p-3 col-lg-6 col-md-5 sides w-auto rounded-3" style="max-width: 180px; min-width: 170px; background-image: url(imgs/sidebar_section_background.png); ">
                     <h4>Categories</h4>
                     <small>
                     <a class="dropdown-item ps-3" href="#">Lorem ipsum dolor</a>
@@ -244,7 +246,7 @@
                     <a class="dropdown-item ps-3" href="#">Incididunt ut labore</a>
                 </small>
                     </div>
-                    <div class="col-sm-5 sides w-100 rounded-3 p-3" >
+                    <div class=" col-lg-6 col-md-5 sides w-auto rounded-3 p-3" style="max-width: 180px; min-width: 170px; background-image: url(imgs/sidebar_section_background.png); ">
                         <h4>Archives</h4>
                         <small>
                         <a class="dropdown-item ps-3" href="#">December 2008</a>
