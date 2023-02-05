@@ -27,3 +27,16 @@ body{
 .navbar .navbar-toggler[aria-expanded="true"]{
 border-color: white;
 }
+.sides{
+    background-image: linear-gradient(rgba(128, 128, 128, 0.126), white);
+}
+.cont-of-sides .sides a:hover{
+text-decoration: underline;
+}
+.footer li a{
+    color: gray;
+}
+.footer li a:hover{
+    text-decoration: none;
+    color: white;
+}
