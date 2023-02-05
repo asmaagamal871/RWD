@@ -15,3 +15,6 @@ bonus task
 ----------
 https://asmaagamal871.github.io/RWD/lab1/bonus.html
 ----------------------------------------------------
+
+#lab2
+https://asmaagamal871.github.io/RWD/lab2/index.html
